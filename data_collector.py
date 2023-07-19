@@ -106,11 +106,11 @@ def preprocess_data(train_data_raw_, normalize: bool = True, ranked: bool = Fals
 
 def get_tournament_data(tournaments: list, keys: str = 'all'):
     tournament_keys = {
-        'S12-spring-LPL': 447,
-        'S12-summer-LPL': 552,
-        'S12-spring-LCK': 449,
-        'S12-spring-LEC': 499,
-        'S12-spring-LCS': 448,
+        'S13-spring-LPL': 447,
+        'S13-summer-LPL': 552,
+        'S13-spring-LCK': 449,
+        'S13-spring-LEC': 499,
+        'S13-spring-LCS': 448,
         'S9-Worlds': 139,
         'S8-Worlds': 95
     }
