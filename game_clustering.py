@@ -19,7 +19,7 @@ valid_min_occur = 10
 ranked = True
 
 # data preprocess
-train_data, valid_data, valid_names, valid_labels_gt, feature_names = get_tournament_data(['S12-summer-LPL'], 'all')
+train_data, valid_data, valid_names, valid_labels_gt, feature_names = get_tournament_data(['S13-summer-LPL'], 'all')
 
 # algorithm
 use_k = int(os.getenv('n_clusters', default_n_clusters))
